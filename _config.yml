@@ -23,9 +23,9 @@ repository               : "cgcostanzo/cgcostanzo.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Charles Costanzo"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D. student in Statistics at Penn State. Research interests: Bayesian modeling, statistical networks, and applications to social science and public policy."
   location         : "State College, Pennsylvania"
   employer         : "Penn State University"
   uri              : # URL
