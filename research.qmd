@@ -151,7 +151,9 @@ future research studying this institution.
 </details>
 :::
 
-::: {.todo}
+<!--
+NOTE TO SELF (not published)
+
 **Before posting the Complex Networks accepted manuscript.** Springer's licence lets you put
 the accepted manuscript on your own website on acceptance, under two conditions: do not
 apply any open licence (e.g. Creative Commons) to it, and print this statement *on the PDF
@@ -165,4 +167,4 @@ itself* (e.g. as a first-page footnote), with the DOI filled in once it is assig
 > https://www.springernature.com/gp/open-research/policies/accepted-manuscript-terms.
 
 Then save the PDF as `files/cn2026_accepted_manuscript.pdf` and uncomment its link above.
-:::
+-->
