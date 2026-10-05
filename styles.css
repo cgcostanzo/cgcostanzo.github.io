@@ -1,0 +1,688 @@
+/* Erie for the web: Bauhaus geometry on Lake Erie colors.
+   Bootstrap variables live in theme/erie-light.scss and theme/erie-dark.scss;
+   everything specific to this site is here. */
+
+/* ---- Fonts (self-hosted in files/fonts) ---- */
+
+@font-face {
+  font-family: "Latin Modern Roman";
+  src: url("files/fonts/LM-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Latin Modern Roman";
+  src: url("files/fonts/LM-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Latin Modern Roman";
+  src: url("files/fonts/LM-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Latin Modern Roman";
+  src: url("files/fonts/LM-bold-italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("files/fonts/jost-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("files/fonts/jost-latin-wght-italic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---- Tokens ---- */
+
+:root {
+  --sans: "Jost", "Futura", "Century Gothic", sans-serif;
+
+  /* desktop grid: section headings in a left rail, content beside them */
+  --rail: 11rem;
+  --rail-gap: 3rem;
+
+  --lake: #054F50;      /* erie blue */
+  --sky: #CCE5E6;       /* erie sky */
+  --sunset: #E8501F;    /* Lake Erie sunset, Browns orange */
+  --sand: #F2B23A;      /* beach sand, Bauhaus yellow */
+  --ink: #000000;
+  --muted: #4A5A5A;
+  --rule: #D5E3E3;
+
+  /* the home-page composition */
+  --art-sky: var(--sky);
+  --art-lake: #3E8E8F;
+  --art-shallows: #6DB0AF;
+  --art-foam: #FFFFFF;
+  --art-wet: #DDA03A;
+  --art-beach: var(--sand);
+  --art-stone: #857C6E;
+  --art-stone-dark: #6E6659;
+  --art-house: #FFFFFF;
+  --art-window: #2B4545;
+  --art-door: #1F4A3C;
+}
+
+body.quarto-dark {
+  --lake: #8FCFD0;
+  --sky: #12494A;
+  --ink: #E7F0F0;
+  --muted: #A9C2C2;
+  --rule: #1B4F50;
+
+  --art-sky: #1D5A5B;
+  --art-lake: #2F7C7D;
+  --art-shallows: #4E9696;
+  --art-foam: #CFE3E3;
+  --art-wet: #B58428;
+  --art-beach: #C8922F;
+  --art-stone: #5F5A50;
+  --art-stone-dark: #4E493F;
+  --art-house: #E7F0F0;
+  --art-window: #1B3535;
+  --art-door: #163A2F;
+}
+
+/* ---- Base type ---- */
+
+body {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+}
+
+h1, h2, h3, h4,
+.navbar, .nav-link, .nav-footer,
+.entries dt, .pub-links, .hero-role {
+  font-family: var(--sans);
+}
+
+main a,
+.nav-footer a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+main a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--sunset);
+  outline-offset: 2px;
+}
+
+/* Section headings: the erie frame title, a short lake-blue rule beneath */
+
+main h2 {
+  font-size: 1.333rem;
+  font-weight: 600;
+  margin-top: 2.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+main h2::after {
+  content: "";
+  display: block;
+  width: 2.5em;
+  height: 2px;
+  margin-top: 0.35em;
+  background: var(--lake);
+}
+
+/* ---- Navbar ---- */
+
+.navbar {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.navbar-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.005em;
+}
+
+/* the mark: icosahedron (Research), stella octangula (Teaching), cube (CV) */
+.navbar-brand::before {
+  content: "";
+  display: inline-block;
+  width: 2.9rem;
+  height: 0.87rem;
+  margin-right: 0.7rem;
+  background: url("files/mark.svg") no-repeat left center / contain;
+}
+
+body.quarto-dark .navbar-brand::before {
+  background-image: url("files/mark-dark.svg");
+}
+
+@media (max-width: 419.98px) {
+  .navbar-brand::before {
+    display: none;
+  }
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 0.889rem;
+}
+
+.navbar .nav-link.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.4em;
+}
+
+/* ---- Page titles, each with its shape ---- */
+
+#title-block-header {
+  margin-bottom: 2rem;
+}
+
+#title-block-header .title {
+  font-size: 2.667rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+#title-block-header .title::before {
+  content: "";
+  display: inline-block;
+  width: 0.66em;
+  height: 0.66em;
+  margin-right: 0.28em;
+  vertical-align: -0.04em;
+  background: no-repeat center / contain;
+}
+
+.page-research #title-block-header .title::before {
+  background-image: url("files/poly-research.svg");
+}
+
+.page-teaching #title-block-header .title::before {
+  background-image: url("files/poly-teaching.svg");
+}
+
+.page-cv #title-block-header .title::before {
+  background-image: url("files/poly-cv.svg");
+}
+
+body.quarto-dark.page-cv #title-block-header .title::before {
+  background-image: url("files/poly-cv-dark.svg");
+}
+
+/* ---- Home ---- */
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: end;
+  margin: 2rem 0 2.75rem;
+}
+
+.hero-name {
+  font-family: var(--sans);
+  font-size: clamp(2.667rem, 6vw, 4.667rem);
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.hero-name::after {
+  content: "";
+  display: block;
+  width: 1.1em;
+  height: 4px;
+  margin: 0.32em 0 0.4em;
+  background: var(--lake);
+}
+
+.hero-role {
+  font-size: 1.167rem;
+  font-weight: 400;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.hero-art svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.art-sky { fill: var(--art-sky); }
+.art-lake { fill: var(--art-lake); }
+.art-sun,
+.art-glint { fill: var(--sunset); }
+.art-shallows { fill: var(--art-shallows); }
+.art-foam { fill: var(--art-foam); }
+.art-wet { fill: var(--art-wet); }
+.art-beach { fill: var(--art-beach); }
+
+/* the Fairport Harbor West Breakwater Light, seen from Headlands Beach */
+.art-stone { fill: var(--art-stone); }
+.art-stone-dark { fill: var(--art-stone-dark); }
+.art-house { fill: var(--art-house); }
+.art-roof { fill: #C8352B; }
+.art-window { fill: var(--art-window); }
+.art-door { fill: var(--art-door); }
+.art-lamp { fill: #F7D77E; }
+
+/* piping plovers, after Charley Harper: gray-sand back, white below,
+   black bands, orange bill and legs; chicks speckled on top */
+.art-back { fill: #CFC5B3; }
+.art-wing { fill: #B3A68E; }
+.art-belly { fill: #FFFFFF; }
+.art-ink { fill: #000000; }
+.art-bill,
+.art-leg { fill: var(--sunset); }
+.art-chick-leg { fill: #EE8A3A; }
+.art-chick-cap { fill: #CDBDA2; }
+.art-speck { fill: #7A6A55; }
+.art-reflection { opacity: 0.3; }
+
+/* motion, on a loop: the sun rises and sets over the lake, one plover walks the
+   waterline and back, and the family on the left pecks and hops. Visitors who
+   prefer reduced motion get a still picture; everyone else gets a pause button. */
+@media (prefers-reduced-motion: no-preference) {
+  .art-sun {
+    animation: sun-cycle 24s ease-in-out infinite;
+  }
+  .art-glint {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: glint-cycle 24s ease-in-out infinite;
+  }
+  .art-glint:nth-of-type(2) { animation-delay: 0.2s; }
+  .art-glint:nth-of-type(3) { animation-delay: 0.4s; }
+  .art-runner {
+    animation: patrol 14s linear infinite;
+  }
+  .art-runner-turn {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: turn 14s step-end infinite;
+  }
+  .art-bob {
+    transform-box: fill-box;
+    transform-origin: 60% 100%;
+    animation: peck 7s ease-in-out 1s infinite;
+  }
+  .art-hop {
+    animation: hop 4.5s ease-in-out infinite;
+  }
+}
+
+.art-paused * {
+  animation-play-state: paused !important;
+}
+
+@keyframes sun-cycle {
+  0%, 4% { transform: translateY(60px); }
+  22%, 78% { transform: translateY(0); }
+  96%, 100% { transform: translateY(60px); }
+}
+
+@keyframes glint-cycle {
+  0%, 12% { transform: scaleX(0); }
+  26%, 74% { transform: scaleX(1); }
+  88%, 100% { transform: scaleX(0); }
+}
+
+/* run, stop, run along the waterline; pause; turn; run back */
+@keyframes patrol {
+  0% { transform: translateX(120px); animation-timing-function: cubic-bezier(0.3, 0, 0.2, 1); }
+  12% { transform: translateX(78px); }
+  20% { transform: translateX(78px); animation-timing-function: cubic-bezier(0.3, 0, 0.2, 1); }
+  32% { transform: translateX(30px); }
+  38% { transform: translateX(30px); animation-timing-function: cubic-bezier(0.3, 0, 0.2, 1); }
+  46% { transform: translateX(0); }
+  50% { transform: translateX(0); animation-timing-function: cubic-bezier(0.3, 0, 0.2, 1); }
+  62% { transform: translateX(45px); }
+  70% { transform: translateX(45px); animation-timing-function: cubic-bezier(0.3, 0, 0.2, 1); }
+  82% { transform: translateX(92px); }
+  88% { transform: translateX(92px); animation-timing-function: cubic-bezier(0.3, 0, 0.2, 1); }
+  96%, 100% { transform: translateX(120px); }
+}
+
+@keyframes turn {
+  0% { transform: scaleX(1); }
+  50% { transform: scaleX(-1); }
+  100% { transform: scaleX(1); }
+}
+
+@keyframes peck {
+  0%, 80%, 100% { transform: rotate(0deg); }
+  86%, 92% { transform: rotate(12deg); }
+}
+
+@keyframes hop {
+  0%, 70%, 84%, 100% { transform: translateY(0); }
+  77%, 91% { transform: translateY(-5px); }
+}
+
+/* pause / play the scene */
+.hero-art {
+  position: relative;
+}
+
+.art-toggle {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+}
+
+.art-toggle::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 0.62rem;
+  height: 0.7rem;
+  background: linear-gradient(to right, #000 0 35%, transparent 35% 65%, #000 65% 100%);
+}
+
+.art-toggle[aria-pressed="true"]::before {
+  width: 0.62rem;
+  background: #000;
+  clip-path: polygon(10% 0, 100% 50%, 10% 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .art-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    margin-top: 1rem;
+  }
+  /* on phones the composition becomes a banner above the name */
+  .hero-art {
+    order: -1;
+    aspect-ratio: 5 / 4;
+  }
+  .hero-art svg {
+    height: 100%;
+  }
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  column-gap: 1.75rem;
+}
+
+.contact .label {
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 0.889rem;
+  color: var(--lake);
+  padding-top: 0.18rem;
+}
+
+/* ---- Dated entries (Research, Teaching, CV) ---- */
+/* write them as Markdown definition lists inside ::: {.entries} */
+
+.entries dl {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  column-gap: 1.75rem;
+  row-gap: 1.1rem;
+  margin: 0;
+}
+
+.entries dt {
+  grid-column: 1;
+  font-weight: 500;
+  font-size: 0.889rem;
+  color: var(--lake);
+  font-variant-numeric: lining-nums tabular-nums;
+  padding-top: 0.18rem;
+  line-height: 1.5;
+}
+
+.entries dd {
+  grid-column: 2;
+  margin: 0;
+}
+
+.entries dd p {
+  margin: 0;
+}
+
+.entries dd p + p,
+.entries dd .pub-links {
+  margin-top: 0.35rem;
+}
+
+@media (max-width: 575.98px) {
+  .entries dl,
+  .contact li {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+  .entries dd {
+    grid-column: 1;
+    margin-bottom: 1.1rem;
+  }
+  .contact li {
+    margin-bottom: 0.6rem;
+  }
+}
+
+/* ---- Research: papers, talks, software ---- */
+
+.pub {
+  margin-bottom: 1.5rem;
+}
+
+.pub p {
+  margin: 0;
+}
+
+.pub .pub-links,
+.pub details {
+  margin-top: 0.3rem;
+}
+
+.pub details > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 0.889rem;
+  color: var(--lake);
+  cursor: pointer;
+  list-style: none;
+}
+
+.pub details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub details > summary::before {
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  background: currentColor;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  transition: transform 0.15s ease;
+}
+
+.pub details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.pub details > summary:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.pub details > p {
+  margin: 0.5rem 0 0.25rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--rule);
+  font-size: 0.944rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pub details > summary::before {
+    transition: none;
+  }
+}
+
+.pkg {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+.pkg > p {
+  margin: 0;
+}
+
+.pkg-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pkg-body p {
+  margin: 0;
+}
+
+.pkg-body p + p {
+  margin-top: 0.5rem;
+}
+
+.pkg-badge {
+  height: 20px;
+  margin-left: 0.35rem;
+  vertical-align: -4px;
+}
+
+@media (max-width: 575.98px) {
+  .pkg {
+    grid-template-columns: 4rem minmax(0, 1fr);
+    column-gap: 1rem;
+  }
+}
+
+.pub-links {
+  font-size: 0.889rem;
+}
+
+.pub-links a {
+  margin-right: 1rem;
+}
+
+.lede {
+  color: var(--muted);
+}
+
+/* ---- Tablets: one column, kept to a readable width ---- */
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  main.content {
+    width: 100%;
+    max-width: 38rem;
+    justify-self: center;
+  }
+}
+
+/* ---- Wide screens: section headings hang in a left rail ---- */
+
+@media (min-width: 992px) {
+  main.content > section.level2 {
+    display: grid;
+    grid-template-columns: var(--rail) minmax(0, 1fr);
+    column-gap: var(--rail-gap);
+    align-items: start;
+    margin-top: 3rem;
+  }
+
+  main.content > section.level2 > h2 {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    font-size: 1.167rem;
+    line-height: 1.4;
+    padding-top: 0.12rem;
+  }
+
+  main.content > section.level2 > :not(h2) {
+    grid-column: 2;
+  }
+
+  /* intro text lines up with the content column */
+  main.content > p,
+  main.content > .lede,
+  main.content > .todo {
+    margin-left: calc(var(--rail) + var(--rail-gap));
+  }
+
+  .hero {
+    gap: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+}
+
+/* ---- Footer ---- */
+
+.nav-footer {
+  font-size: 0.778rem;
+}
+
+/* ---- Notes to self while drafting; delete each box once done ---- */
+
+.todo {
+  border-left: 4px solid var(--sunset);
+  padding: 0.5rem 0.75rem;
+  background: color-mix(in srgb, var(--sunset) 8%, transparent);
+  margin: 1.25rem 0;
+  font-size: 0.889rem;
+}
+
+.todo p:last-child {
+  margin-bottom: 0;
+}

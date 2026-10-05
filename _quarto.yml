@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  resources:
+    - files/
+
+website:
+  title: "Charles G. Costanzo"
+  site-url: "https://cgcostanzo.github.io"
+  favicon: files/favicon.svg
+  navbar:
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: github
+        href: https://github.com/cgcostanzo
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/cgcostanzo/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:cgc5478@psu.edu
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Charles G. Costanzo"
+
+format:
+  html:
+    theme:
+      light: [default, theme/erie-light.scss]
+      dark: [default, theme/erie-dark.scss]
+    respect-user-color-scheme: true
+    css: styles.css
+    toc: false
+    filters:
+      - filters/plain-spaces.lua
+    anchor-sections: false
+
+editor: source

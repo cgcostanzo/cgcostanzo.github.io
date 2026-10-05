@@ -1,0 +1,33 @@
+// Erie, light: black text on white with lake blue as the accent,
+// following the erie beamer theme (github.com/cgcostanzo/erie).
+
+/*-- scss:defaults --*/
+
+$lake: #054F50;
+$sky: #CCE5E6;
+
+$body-bg: #FFFFFF;
+$body-color: #000000;
+$primary: $lake;
+$link-color: $lake;
+$link-hover-color: #032F30;
+
+$font-family-sans-serif: "Jost", "Futura", "Century Gothic", sans-serif;
+$font-family-base: "Latin Modern Roman", "Latin Modern", "Computer Modern Serif", Georgia, serif;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 600;
+$font-size-root: 18px;
+$line-height-base: 1.6;
+
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$navbar-hl: $lake;
+$footer-bg: $body-bg;
+$footer-fg: #4A5A5A;
+$code-color: $lake;
+
+// wide page; on desktop, section headings hang in a left rail (styles.css) so the
+// reading column itself stays near 75-85 characters a line
+$grid-body-width: 1000px;
+
+/*-- scss:rules --*/

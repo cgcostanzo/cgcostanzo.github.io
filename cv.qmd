@@ -1,0 +1,130 @@
+---
+title: "CV"
+body-classes: page-cv
+---
+
+<!-- uncomment once files/cv.pdf exists -->
+<!-- [Download my CV (PDF)](files/cv.pdf) -->
+
+::: {.todo}
+**To fill in:** save your CV as `files/cv.pdf` and uncomment the link above.
+:::
+
+::: {.lede}
+Papers, software, and presentations are on the [Research](research.qmd) page; course
+details and outreach are on the [Teaching](teaching.qmd) page.
+:::
+
+## Education
+
+::: {.entries}
+2024–
+:   **Dual-title Ph.D. in Statistics and Social Data Analytics**\
+    The Pennsylvania State University
+
+2024
+:   **B.S. in Statistics and Political Science**\
+    The Ohio State University. Summa cum laude, with honors research distinction in
+    Political Science.
+:::
+
+## Experience
+
+::: {.entries}
+Fall 2026–
+:   **Graduate research assistant**, Statistical Consulting Center, Penn State
+
+Summer 2026
+:   **Instructor**, STAT 184: Introduction to R, Penn State
+
+2025–2026
+:   **Teaching assistant**, STAT 200: Elementary Statistics, Penn State
+
+2025
+:   **Graduate research assistant**, Department of Statistics, Penn State\
+    Bayesian network scale-up models in Python and Stan.
+
+2024
+:   **Data analyst fellow**, Bureau of Justice Statistics, U.S. Department of Justice\
+    Coding it Forward fellowship (selected from about 4,500 applicants). Analyzed
+    immigration and federal justice data and redesigned data collection tracking for the
+    National Pretrial Reporting Program.
+
+2023–
+:   **Research assistant**, Department of Political Science, Ohio State\
+    Congressional speech networks: text models, exponential random graph models, and
+    sentiment analysis with large language models.
+
+2023
+:   **Biostatistics research intern**, University of Texas Medical Branch\
+    NIH Summer Institute in Biostatistics and Data Science. Analyzed immune responses in a
+    nonhuman primate study of a plague vaccine.
+
+2022–2024
+:   **Research assistant**, School of Communication, Ohio State\
+    Eye-tracking studies of political decision-making; predictive models with Sandia
+    National Laboratories.
+
+2022–2024
+:   **Tutor**, Mathematics and Statistics Learning Center, Ohio State
+:::
+
+## Honors and awards
+
+::: {.entries}
+2025
+:   Jack and Eleanor Pettit Scholarship in Science, Penn State
+
+2025
+:   University Graduate Fellowship, Penn State
+
+2024
+:   Stephen B. Brumbach Distinguished Graduate Fellowship in Statistics, Penn State
+
+2024
+:   Henry R. Spencer Award for Outstanding Senior Honors Thesis in Political Science,
+    Ohio State
+
+2024
+:   Undergraduate Research Scholarship, Ohio State
+
+2023, 2024
+:   Best Data Visualization, ASA DataFest at Ohio State
+
+2022
+:   Second-year Transformational Experience Program Fellowship, Keith and Linda Monda
+    International Experience Scholarship, and Francille M. Firebaugh Global Education Fund
+    Scholarship, Ohio State. Funded study of the 1994 Rwandan genocide and its aftermath in
+    Kigali, Rwanda.
+
+2020–2024
+:   Nestlé USA College Scholarship
+:::
+
+## Service
+
+::: {.entries}
+2026–
+:   **Board of directors**, The Columbus Review\
+    Founding board of an independent nonprofit literary magazine in Columbus, Ohio.
+
+2020–2022
+:   **Peer mentor**, Q\*mmunity LGBTQ Mentorship Program, Ohio State
+:::
+
+## Memberships
+
+::: {.entries}
+2025–
+:   American Society of Criminology
+
+2023–
+:   American Statistical Association
+:::
+
+## Software
+
+::: {.entries}
+Languages
+:   R (tidyverse), Python, Stan, JAGS, SAS, SQL
+:::
