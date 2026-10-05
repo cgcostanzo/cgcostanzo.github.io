@@ -6,9 +6,7 @@ body-classes: page-cv
 <!-- uncomment once files/cv.pdf exists -->
 <!-- [Download my CV (PDF)](files/cv.pdf) -->
 
-::: {.todo}
-**To fill in:** save your CV as `files/cv.pdf` and uncomment the link above.
-:::
+<!-- NOTE TO SELF (not published): save your CV as files/cv.pdf and uncomment the link above. -->
 
 ::: {.lede}
 Papers, software, and presentations are on the [Research](research.qmd) page; course
