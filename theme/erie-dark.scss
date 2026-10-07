@@ -26,7 +26,7 @@ $footer-fg: #A9C2C2;
 $code-color: $lake;
 
 // wide page; on desktop, section headings hang in a left rail (styles.css) so the
-// reading column itself stays near 75-85 characters a line
-$grid-body-width: 1000px;
+// reading column itself stays near 85-95 characters a line (less for dated entries)
+$grid-body-width: 1150px;
 
 /*-- scss:rules --*/
