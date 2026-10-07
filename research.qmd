@@ -3,11 +3,6 @@ title: "Research"
 body-classes: page-research
 ---
 
-My research is in Bayesian statistics, statistical network models, and latent variable
-models, with applications in political science, criminal justice, and public policy.
-Current projects include Bayesian network scale-up models for estimating the size of
-hard-to-reach populations, and network models of what members of Congress talk about.
-
 ## Publications
 
 ::: {.pub}
