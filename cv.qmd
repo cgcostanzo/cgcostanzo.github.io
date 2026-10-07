@@ -8,11 +8,6 @@ body-classes: page-cv
 
 <!-- NOTE TO SELF (not published): save your CV as files/cv.pdf and uncomment the link above. -->
 
-::: {.lede}
-Papers, software, and presentations are on the [Research](research.qmd) page; course
-details and outreach are on the [Teaching](teaching.qmd) page.
-:::
-
 ## Education
 
 ::: {.entries}
@@ -22,7 +17,7 @@ details and outreach are on the [Teaching](teaching.qmd) page.
 
 2024
 :   **B.S. in Statistics and Political Science**\
-    The Ohio State University. Summa cum laude, with honors research distinction in
+    The Ohio State University. *Summa cum laude*, with honors research distinction in
     Political Science.
 :::
 
@@ -30,7 +25,7 @@ details and outreach are on the [Teaching](teaching.qmd) page.
 
 ::: {.entries}
 Fall 2026–
-:   **Graduate research assistant**, Statistical Consulting Center, Penn State
+:   **Graduate research assistant**, [Statistical Consulting Center](https://scc.stat.psu.edu/), Penn State
 
 Summer 2026
 :   **Instructor**, STAT 184: Introduction to R, Penn State
@@ -40,31 +35,22 @@ Summer 2026
 
 2025
 :   **Graduate research assistant**, Department of Statistics, Penn State\
-    Bayesian network scale-up models in Python and Stan.
 
 2024
 :   **Data analyst fellow**, Bureau of Justice Statistics, U.S. Department of Justice\
-    Coding it Forward fellowship (selected from about 4,500 applicants). Analyzed
-    immigration and federal justice data and redesigned data collection tracking for the
-    National Pretrial Reporting Program.
+    Through the [Coding it Forward](https://codingitforward.com/) fellowship.
 
-2023–
+2023–2024
 :   **Research assistant**, Department of Political Science, Ohio State\
-    Congressional speech networks: text models, exponential random graph models, and
-    sentiment analysis with large language models.
 
 2023
 :   **Biostatistics research intern**, University of Texas Medical Branch\
-    NIH Summer Institute in Biostatistics and Data Science. Analyzed immune responses in a
-    nonhuman primate study of a plague vaccine.
 
 2022–2024
 :   **Research assistant**, School of Communication, Ohio State\
-    Eye-tracking studies of political decision-making; predictive models with Sandia
-    National Laboratories.
 
 2022–2024
-:   **Tutor**, Mathematics and Statistics Learning Center, Ohio State
+:   **Tutor**, [Mathematics and Statistics Learning Center](https://mslc.osu.edu/), Ohio State
 :::
 
 ## Honors and awards
@@ -103,8 +89,7 @@ Summer 2026
 
 ::: {.entries}
 2026–
-:   **Board of directors**, The Columbus Review\
-    Founding board of an independent nonprofit literary magazine in Columbus, Ohio.
+:   **Board of directors**, [The Columbus Review](https://www.thecolumbusreview.com/)\
 
 2020–2022
 :   **Peer mentor**, Q\*mmunity LGBTQ Mentorship Program, Ohio State

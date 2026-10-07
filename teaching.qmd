@@ -8,8 +8,6 @@ body-classes: page-teaching
 ::: {.entries}
 Summer 2026
 :   **Instructor, STAT 184: Introduction to R**\
-    Data import, wrangling, and visualization with the tidyverse, reproducible analysis in
-    Quarto, and version control with Git and GitHub.
 
     ::: {.pub-links}
     [Course website](https://cgcostanzo.github.io/stat184-summer2026/)
@@ -17,7 +15,6 @@ Summer 2026
 
 2025–2026
 :   **Teaching assistant, STAT 200: Elementary Statistics**\
-    Lab sections and office hours for a course of about 1,900 students across 24 sections.
 :::
 
 ## The Ohio State University
@@ -25,7 +22,6 @@ Summer 2026
 ::: {.entries}
 2022–2024
 :   **Tutor, Mathematics and Statistics Learning Center**\
-    Calculus, linear algebra, and proof-writing.
 :::
 
 ## Outreach
@@ -33,11 +29,7 @@ Summer 2026
 ::: {.entries}
 2025
 :   **Workshop leader, ENVISION STEM Career Day, Penn State**\
-    Co-designed and co-led "Sweet Victory with Machine Learning," which teaches students in
-    grades 6–12 the core ideas of reinforcement learning by playing Nim with Starburst candy.
 
 2025
 :   **Mentor, ASA DataFest at Penn State**\
-    Advised student teams on modeling, data wrangling, and visualization during a 48-hour
-    data analysis competition.
 :::
