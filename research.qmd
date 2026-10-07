@@ -53,12 +53,26 @@ Gelman (2006), and the uncorrelated, correlated, and covariate models of Laga, B
 ::: {.pub}
 **Immigration and Law Enforcement Trends at the Southwest Border** (2025). Poster, American
 Society of Criminology Annual Meeting, Washington, DC.
+
+<details>
+<summary>Abstract</summary>
+
+Utilizing data from the U.S. Department of Justice, Bureau of Justice Statistics’ (BJS) Federal Justice Statistics Program, U.S. Customs and Border Protection (CBP), and the U.S. Department of Homeland Security’s Office of Homeland Security Statistics, this poster provides an overview of findings on the federal criminal immigration encounters and arrests at the Southwest U.S.-Mexico border. Federal criminal immigration arrests by CBP in U.S. district courts on the Southwest border and USBP encounters, apprehensions, and expulsions by the Southwest Border Patrol sector were analyzed.
+
+</details>
 :::
 
 ::: {.pub}
 **Federal Immigration Offense Trends Using the FCCPS** (2025). American Society of
 Criminology Annual Meeting, Washington, DC. Accepted; cancelled because of the federal
 government shutdown.
+
+<details>
+<summary>Abstract</summary>
+
+The Bureau of Justice Statistics’ Federal Justice Statistics Program (FJSP) was created in 1982 to serve as a national clearinghouse of federal criminal case processing data. Six federal criminal justice agencies provide data for the FJSP, from arrest through post-conviction supervision. Recently, the Executive Office for Immigration Review contributed data to the FJSP to increase BJS’s ability to explain the federal response to immigration. This presentation focuses on several special topics not regularly explored with these data, including an examination of human trafficking using different data sources, American Indian and Alaska Natives in the federal criminal justice system, and immigration trends with data from federal criminal and immigration courts.
+
+</details>
 :::
 
 ::: {.pub}
