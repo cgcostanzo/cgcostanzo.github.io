@@ -481,6 +481,7 @@ body.quarto-dark.page-cv #title-block-header .title::before {
 .entries dd {
   grid-column: 2;
   margin: 0;
+  text-wrap: pretty;
 }
 
 .entries dd p {
@@ -490,6 +491,17 @@ body.quarto-dark.page-cv #title-block-header .title::before {
 .entries dd p + p,
 .entries dd .pub-links {
   margin-top: 0.35rem;
+}
+
+/* second line of an entry (institution, program): quieter than the title */
+.entries .detail {
+  color: var(--muted);
+  font-size: 0.944rem;
+}
+
+/* keep a proper noun on one line rather than stranding its last word */
+.nowrap {
+  white-space: nowrap;
 }
 
 @media (max-width: 575.98px) {

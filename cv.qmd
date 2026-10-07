@@ -13,12 +13,12 @@ body-classes: page-cv
 ::: {.entries}
 2024–
 :   **Dual-title Ph.D. in Statistics and Social Data Analytics**\
-    The Pennsylvania State University
+    [The Pennsylvania State University]{.detail}
 
 2024
 :   **B.S. in Statistics and Political Science**\
-    The Ohio State University. *Summa cum laude*, with honors research distinction in
-    Political Science.
+    [The Ohio State University. *Summa cum laude*, with honors research distinction in
+    Political Science.]{.detail}
 :::
 
 ## Experience
@@ -34,20 +34,20 @@ Summer 2026
 :   **Teaching assistant**, STAT 200: Elementary Statistics, Penn State
 
 2025
-:   **Graduate research assistant**, Department of Statistics, Penn State\
+:   **Graduate research assistant**, Department of Statistics, Penn State
 
 2024
-:   **Data analyst fellow**, Bureau of Justice Statistics, U.S. Department of Justice\
-    Through the [Coding it Forward](https://codingitforward.com/) fellowship.
+:   **Data analyst fellow**, Bureau of Justice Statistics, [U.S. Department of Justice]{.nowrap}\
+    [Through the [Coding it Forward](https://codingitforward.com/) fellowship.]{.detail}
 
 2023–2024
-:   **Research assistant**, Department of Political Science, Ohio State\
+:   **Research assistant**, Department of Political Science, Ohio State
 
 2023
-:   **Biostatistics research intern**, University of Texas Medical Branch\
+:   **Biostatistics research intern**, University of Texas Medical Branch
 
 2022–2024
-:   **Research assistant**, School of Communication, Ohio State\
+:   **Research assistant**, School of Communication, Ohio State
 
 2022–2024
 :   **Tutor**, [Mathematics and Statistics Learning Center](https://mslc.osu.edu/), Ohio State
@@ -89,7 +89,7 @@ Summer 2026
 
 ::: {.entries}
 2026–
-:   **Board of directors**, [The Columbus Review](https://www.thecolumbusreview.com/)\
+:   **Board of directors**, [The Columbus Review](https://www.thecolumbusreview.com/)
 
 2020–2022
 :   **Peer mentor**, Q\*mmunity LGBTQ Mentorship Program, Ohio State
