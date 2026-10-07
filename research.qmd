@@ -78,6 +78,11 @@ The Bureau of Justice Statistics’ Federal Justice Statistics Program (FJSP) wa
 ::: {.pub}
 **Immigration and Law Enforcement Trends at the Southwest Border, 2012–2022** (2024).
 Coding it Forward Demo Day.
+
+::: {.pub-links}
+[Slides](https://github.com/codingitforward/fellowship2024/blob/main/Charles_Costanzo.pdf)[Video](https://youtu.be/8tAfxmU6eD4?si=LPZm76JpvL5s2VAW)
+:::
+
 :::
 
 ::: {.pub}
