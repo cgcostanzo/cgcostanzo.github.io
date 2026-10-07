@@ -7,9 +7,9 @@ body-classes: page-research
 
 ::: {.pub}
 **From Speech to Networks: Modeling Discursive Alignment in the U.S. Congress** (2026).
-*Complex Networks & Their Applications XV* (COMPLEX NETWORKS 2026). Springer. Forthcoming.\
-With Sahar Abi-Hassan, Janet M. Box-Steffensmeier, Dino P. Christenson, Chandler J.
-L'Hommedieu, Laura Moses, Grace Orians, Adam Perhala, Enan Srivastava, and Cianna Mancino.
+*Complex Networks & Their Applications XV*. Forthcoming.\
+[With Sahar Abi-Hassan, Janet M. Box-Steffensmeier, Dino P. Christenson, Chandler J.
+L'Hommedieu, Laura Moses, Grace Orians, Adam Perhala, Enan Srivastava, and Cianna Mancino.]{.coauthors}
 
 ::: {.pub-links}
 <!-- uncomment each link once its target exists -->
@@ -37,7 +37,7 @@ ABSTRACT
 ::: {.pkg-body}
 **networkscaleup: Network Scale-Up Models for Aggregated Relational Data** (Python)
 [![PyPI version](https://img.shields.io/pypi/v/networkscaleup.svg?label=PyPI&color=054F50){.pkg-badge}](https://pypi.org/project/networkscaleup/)\
-With Ian Laga and Sarah Nagy.
+[With Ian Laga and Sarah Nagy.]{.coauthors}
 :::
 :::
 
@@ -60,7 +60,7 @@ Utilizing data from the U.S. Department of Justice, Bureau of Justice Statistics
 Criminology Annual Meeting, Washington, DC. Accepted; cancelled because of the federal
 government shutdown.
 
-With George "Ebo" Browne and Rachel Seo-Park.
+[With George "Ebo" Browne and Rachel Seo-Park.]{.coauthors}
 
 <details>
 <summary>Abstract</summary>

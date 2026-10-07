@@ -608,6 +608,11 @@ body.quarto-dark.page-cv #title-block-header .title::before {
   }
 }
 
+/* co-author lines: present but quieter than the title and venue */
+.coauthors {
+  color: var(--muted);
+}
+
 .pub-links {
   font-size: 0.889rem;
 }
