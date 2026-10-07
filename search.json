@@ -4,28 +4,28 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Summer 2026\n\nInstructor, STAT 184: Introduction to R\nData import, wrangling, and visualization with the tidyverse, reproducible analysis in Quarto, and version control with Git and GitHub.\n\nCourse website\n\n\n2025–2026\n\nTeaching assistant, STAT 200: Elementary Statistics\nLab sections and office hours for a course of about 1,900 students across 24 sections."
+    "text": "Summer 2026\n\nInstructor, STAT 184: Introduction to R\n\n\nCourse website\n\n\n2025–2026\n\nTeaching assistant, STAT 200: Elementary Statistics"
   },
   {
     "objectID": "teaching.html#the-pennsylvania-state-university",
     "href": "teaching.html#the-pennsylvania-state-university",
     "title": "Teaching",
     "section": "",
-    "text": "Summer 2026\n\nInstructor, STAT 184: Introduction to R\nData import, wrangling, and visualization with the tidyverse, reproducible analysis in Quarto, and version control with Git and GitHub.\n\nCourse website\n\n\n2025–2026\n\nTeaching assistant, STAT 200: Elementary Statistics\nLab sections and office hours for a course of about 1,900 students across 24 sections."
+    "text": "Summer 2026\n\nInstructor, STAT 184: Introduction to R\n\n\nCourse website\n\n\n2025–2026\n\nTeaching assistant, STAT 200: Elementary Statistics"
   },
   {
     "objectID": "teaching.html#the-ohio-state-university",
     "href": "teaching.html#the-ohio-state-university",
     "title": "Teaching",
     "section": "The Ohio State University",
-    "text": "The Ohio State University\n\n\n2022–2024\n\nTutor, Mathematics and Statistics Learning Center\nCalculus, linear algebra, and proof-writing."
+    "text": "The Ohio State University\n\n\n2022–2024\n\nTutor, Mathematics and Statistics Learning Center"
   },
   {
     "objectID": "teaching.html#outreach",
     "href": "teaching.html#outreach",
     "title": "Teaching",
     "section": "Outreach",
-    "text": "Outreach\n\n\n2025\n\nWorkshop leader, ENVISION STEM Career Day, Penn State\nCo-designed and co-led “Sweet Victory with Machine Learning,” which teaches students in grades 6–12 the core ideas of reinforcement learning by playing Nim with Starburst candy.\n\n2025\n\nMentor, ASA DataFest at Penn State\nAdvised student teams on modeling, data wrangling, and visualization during a 48-hour data analysis competition."
+    "text": "Outreach\n\n\n2025\n\nWorkshop leader, ENVISION STEM Career Day, Penn State\n\n\n2025\n\nMentor, ASA DataFest at Penn State"
   },
   {
     "objectID": "index.html",
@@ -46,21 +46,21 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Papers, software, and presentations are on the Research page; course details and outreach are on the Teaching page."
+    "text": "2024–\n\nDual-title Ph.D. in Statistics and Social Data Analytics\nThe Pennsylvania State University\n\n2024\n\nB.S. in Statistics and Political Science\nThe Ohio State University. Summa cum laude, with honors research distinction in Political Science."
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "CV",
-    "section": "Education",
-    "text": "Education\n\n\n2024–\n\nDual-title Ph.D. in Statistics and Social Data Analytics\nThe Pennsylvania State University\n\n2024\n\nB.S. in Statistics and Political Science\nThe Ohio State University. Summa cum laude, with honors research distinction in Political Science."
+    "section": "",
+    "text": "2024–\n\nDual-title Ph.D. in Statistics and Social Data Analytics\nThe Pennsylvania State University\n\n2024\n\nB.S. in Statistics and Political Science\nThe Ohio State University. Summa cum laude, with honors research distinction in Political Science."
   },
   {
     "objectID": "cv.html#experience",
     "href": "cv.html#experience",
     "title": "CV",
     "section": "Experience",
-    "text": "Experience\n\n\nFall 2026–\n\nGraduate research assistant, Statistical Consulting Center, Penn State\n\nSummer 2026\n\nInstructor, STAT 184: Introduction to R, Penn State\n\n2025–2026\n\nTeaching assistant, STAT 200: Elementary Statistics, Penn State\n\n2025\n\nGraduate research assistant, Department of Statistics, Penn State\nBayesian network scale-up models in Python and Stan.\n\n2024\n\nData analyst fellow, Bureau of Justice Statistics, U.S. Department of Justice\nCoding it Forward fellowship (selected from about 4,500 applicants). Analyzed immigration and federal justice data and redesigned data collection tracking for the National Pretrial Reporting Program.\n\n2023–\n\nResearch assistant, Department of Political Science, Ohio State\nCongressional speech networks: text models, exponential random graph models, and sentiment analysis with large language models.\n\n2023\n\nBiostatistics research intern, University of Texas Medical Branch\nNIH Summer Institute in Biostatistics and Data Science. Analyzed immune responses in a nonhuman primate study of a plague vaccine.\n\n2022–2024\n\nResearch assistant, School of Communication, Ohio State\nEye-tracking studies of political decision-making; predictive models with Sandia National Laboratories.\n\n2022–2024\n\nTutor, Mathematics and Statistics Learning Center, Ohio State"
+    "text": "Experience\n\n\nFall 2026–\n\nGraduate research assistant, Statistical Consulting Center, Penn State\n\nSummer 2026\n\nInstructor, STAT 184: Introduction to R, Penn State\n\n2025–2026\n\nTeaching assistant, STAT 200: Elementary Statistics, Penn State\n\n2025\n\nGraduate research assistant, Department of Statistics, Penn State\n\n\n2024\n\nData analyst fellow, Bureau of Justice Statistics, U.S. Department of Justice\nThrough the Coding it Forward fellowship.\n\n2023–2024\n\nResearch assistant, Department of Political Science, Ohio State\n\n\n2023\n\nBiostatistics research intern, University of Texas Medical Branch\n\n\n2022–2024\n\nResearch assistant, School of Communication, Ohio State\n\n\n2022–2024\n\nTutor, Mathematics and Statistics Learning Center, Ohio State"
   },
   {
     "objectID": "cv.html#honors-and-awards",
@@ -74,7 +74,7 @@
     "href": "cv.html#service",
     "title": "CV",
     "section": "Service",
-    "text": "Service\n\n\n2026–\n\nBoard of directors, The Columbus Review\nFounding board of an independent nonprofit literary magazine in Columbus, Ohio.\n\n2020–2022\n\nPeer mentor, Q*mmunity LGBTQ Mentorship Program, Ohio State"
+    "text": "Service\n\n\n2026–\n\nBoard of directors, The Columbus Review\n\n\n2020–2022\n\nPeer mentor, Q*mmunity LGBTQ Mentorship Program, Ohio State"
   },
   {
     "objectID": "cv.html#memberships",
