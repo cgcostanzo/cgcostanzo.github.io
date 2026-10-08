@@ -69,6 +69,8 @@
   --art-sky-mid: #DCE6D8;
   --art-sky-low: #EDE2BE;
   --art-sky-glow: #F5D39A;
+  --art-gull: #FFFFFF;
+  --art-gull-line: #000000;  /* a hairline so white wings read on the pale sky */
   --art-lake: #3E8E8F;
   --art-shallows: #6DB0AF;
   --art-foam: #FFFFFF;
@@ -92,6 +94,8 @@ body.quarto-dark {
   --art-sky-mid: #235A58;
   --art-sky-low: #335C51;
   --art-sky-glow: #5C5A40;
+  --art-gull: #CFE3E3;
+  --art-gull-line: transparent;
   --art-lake: #2F7C7D;
   --art-shallows: #4E9696;
   --art-foam: #CFE3E3;
@@ -297,18 +301,21 @@ body.quarto-dark.page-cv #title-block-header .title::before {
   margin: 0;
 }
 
-/* sunrise: the sky steps down through flat bands to a warm glow at the
-   horizon, and two translucent rings ride up with the sun */
+/* sunrise: the sky steps down through flat bands to a warm glow at the horizon */
 .art-sky { fill: var(--art-sky); }
 .art-sky-mid { fill: var(--art-sky-mid); }
 .art-sky-low { fill: var(--art-sky-low); }
 .art-sky-glow { fill: var(--art-sky-glow); }
 .art-lake { fill: var(--art-lake); }
-.art-sun-disc,
+.art-sun,
 .art-glint { fill: var(--sunset); }
-.art-halo { fill: var(--sunset); opacity: 0.14; }
-.art-halo + .art-halo { opacity: 0.2; }
-.art-gull { fill: var(--art-foam); }
+.art-gull {
+  fill: var(--art-gull);
+  stroke: var(--art-gull-line);
+  stroke-width: 0.5;
+  stroke-linejoin: round;
+  paint-order: stroke;
+}
 .art-shallows { fill: var(--art-shallows); }
 .art-foam { fill: var(--art-foam); }
 .art-wet { fill: var(--art-wet); }

@@ -46,9 +46,10 @@ body-classes: page-about
       <path class="art-ink" d="M144.6 29.1 L150 30.6 L144.6 32.2 Z"/>
     </g>
     <g id="gull">
-      <path class="art-gull" d="M0 0 C-7 -3 -14 -7 -24 -6 C-15 -2 -8 2 0 4 C8 2 15 -2 24 -6 C14 -7 7 -3 0 0 Z"/>
-      <path class="art-ink" d="M-24 -6 L-15 -3.9 L-16 -1.6 Z"/>
-      <path class="art-ink" d="M24 -6 L15 -3.9 L16 -1.6 Z"/>
+      <path class="art-gull" d="M0 -1 C-7 -5 -14 -7.5 -19 -6.5 C-22.5 -5.8 -25 -3 -28 0 C-25.5 -1.5 -23 -3 -19.5 -3.5 C-14 -4.5 -7 -2 0 2 C7 -2 14 -4.5 19.5 -3.5 C23 -3 25.5 -1.5 28 0 C25 -3 22.5 -5.8 19 -6.5 C14 -7.5 7 -5 0 -1 Z"/>
+      <path class="art-gull" d="M-1.8 1 L1.8 1 L0 6.5 Z"/>
+      <path class="art-ink" d="M-19 -6.5 C-22.5 -5.8 -25 -3 -28 0 C-25.5 -1.5 -23 -3 -19.5 -3.5 Z"/>
+      <path class="art-ink" d="M19 -6.5 C22.5 -5.8 25 -3 28 0 C25.5 -1.5 23 -3 19.5 -3.5 Z"/>
     </g>
     <g id="chick">
       <rect class="art-chick-leg" x="16" y="33" width="1.8" height="19"/>
@@ -77,18 +78,14 @@ body-classes: page-about
   <rect class="art-sky-mid" x="0" y="118" width="1200" height="30"/>
   <rect class="art-sky-low" x="0" y="148" width="1200" height="22"/>
   <rect class="art-sky-glow" x="0" y="170" width="1200" height="21"/>
-  <g class="art-sun">
-    <circle class="art-halo" cx="820" cy="190" r="100"/>
-    <circle class="art-halo" cx="820" cy="190" r="68"/>
-    <circle class="art-sun-disc" cx="820" cy="190" r="40"/>
-  </g>
+  <circle class="art-sun" cx="820" cy="190" r="40"/>
   <g class="art-gulls">
-    <use href="#gull" transform="translate(150 118) scale(0.6)"/>
-    <use href="#gull" transform="translate(540 100)"/>
+    <use href="#gull" transform="translate(150 118) scale(0.6) rotate(8)"/>
+    <use href="#gull" transform="translate(540 100) rotate(-10)"/>
     <use href="#gull" transform="translate(610 122) scale(0.65)"/>
-    <use href="#gull" transform="translate(690 88) scale(0.8)"/>
-    <use href="#gull" transform="translate(985 112) scale(0.7)"/>
-    <use href="#gull" transform="translate(1070 96)"/>
+    <use href="#gull" transform="translate(690 88) scale(0.8) rotate(14)"/>
+    <use href="#gull" transform="translate(985 112) scale(0.7) rotate(-6)"/>
+    <use href="#gull" transform="translate(1070 96) rotate(10)"/>
   </g>
   <rect class="art-lake" x="0" y="190" width="1200" height="52"/>
   <g>
