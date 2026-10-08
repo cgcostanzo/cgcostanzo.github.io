@@ -360,6 +360,12 @@ ul.task-list li input[type="checkbox"] {
       <path class="art-bill" d="M136 26.6 L150 30.6 L136 34.6 Z"></path>
       <path class="art-ink" d="M144.6 29.1 L150 30.6 L144.6 32.2 Z"></path>
     </g>
+    <g id="gull">
+      <path class="art-gull" d="M0 -1 C-7 -5 -14 -7.5 -19 -6.5 C-22.5 -5.8 -25 -3 -28 0 C-25.5 -1.5 -23 -3 -19.5 -3.5 C-14 -4.5 -7 -2 0 2 C7 -2 14 -4.5 19.5 -3.5 C23 -3 25.5 -1.5 28 0 C25 -3 22.5 -5.8 19 -6.5 C14 -7.5 7 -5 0 -1 Z"></path>
+      <path class="art-gull" d="M-1.8 1 L1.8 1 L0 6.5 Z"></path>
+      <path class="art-ink" d="M-19 -6.5 C-22.5 -5.8 -25 -3 -28 0 C-25.5 -1.5 -23 -3 -19.5 -3.5 Z"></path>
+      <path class="art-ink" d="M19 -6.5 C22.5 -5.8 25 -3 28 0 C25.5 -1.5 23 -3 19.5 -3.5 Z"></path>
+    </g>
     <g id="chick">
       <rect class="art-chick-leg" x="16" y="33" width="1.8" height="19"></rect>
       <rect class="art-chick-leg" x="16" y="50.6" width="6" height="1.4"></rect>
@@ -384,7 +390,18 @@ ul.task-list li input[type="checkbox"] {
     </g>
   </defs>
   <rect class="art-sky" x="0" y="0" width="1200" height="191"></rect>
+  <rect class="art-sky-mid" x="0" y="118" width="1200" height="30"></rect>
+  <rect class="art-sky-low" x="0" y="148" width="1200" height="22"></rect>
+  <rect class="art-sky-glow" x="0" y="170" width="1200" height="21"></rect>
   <circle class="art-sun" cx="820" cy="190" r="40"></circle>
+  <g class="art-gulls">
+    <use href="#gull" transform="translate(150 118) scale(0.6) rotate(8)"></use>
+    <use href="#gull" transform="translate(540 100) rotate(-10)"></use>
+    <use href="#gull" transform="translate(610 122) scale(0.65)"></use>
+    <use href="#gull" transform="translate(690 88) scale(0.8) rotate(14)"></use>
+    <use href="#gull" transform="translate(985 112) scale(0.7) rotate(-6)"></use>
+    <use href="#gull" transform="translate(1070 96) rotate(10)"></use>
+  </g>
   <rect class="art-lake" x="0" y="190" width="1200" height="52"></rect>
   <g>
     <rect class="art-glint" x="785" y="198" width="70" height="5"></rect>
@@ -451,9 +468,9 @@ ul.task-list li input[type="checkbox"] {
   </g>
   <g class="art-bob"><use href="#plover-stand" transform="translate(265 274.1) scale(0.55 0.55)"></use></g>
   <g class="art-hop"><use href="#chick" transform="translate(387 296.4) scale(-0.8 0.8)"></use></g>
-  <use href="#plover-stand" transform="translate(1110 302.5) scale(-0.65 0.65)"></use>
-  <use href="#chick" transform="translate(1067 342.6) scale(-0.68 0.68)"></use>
-  <use href="#chick" transform="translate(1067 342.6) scale(0.68 0.68)"></use>
+  <use href="#plover-stand" transform="translate(905 302.5) scale(-0.65 0.65)"></use>
+  <use href="#chick" transform="translate(862 342.6) scale(-0.68 0.68)"></use>
+  <use href="#chick" transform="translate(862 342.6) scale(0.68 0.68)"></use>
 </svg>
 <button class="art-toggle" type="button" aria-label="Pause animation" aria-pressed="false"></button>
 <script>
