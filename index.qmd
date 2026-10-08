@@ -3,23 +3,14 @@ pagetitle: "Charles G. Costanzo"
 body-classes: page-about
 ---
 
-::: {.hero}
-
-::: {.hero-text}
+::: {.scene}
 ```{=html}
-<div class="hero-name" role="heading" aria-level="1">Charles G. Costanzo</div>
-<p class="hero-role">Ph.D. student in Statistics and Social Data Analytics<br>The Pennsylvania State University</p>
-```
-:::
-
-::: {.hero-art}
-```{=html}
-<svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMax slice" role="img"
+<svg viewBox="0 60 1200 340" preserveAspectRatio="xMidYMax slice" role="img"
      aria-label="Piping plovers and their chicks on a Lake Erie beach at sunrise, below the Fairport Harbor lighthouse, in the style of a mid-century wildlife print">
   <defs>
     <clipPath id="plover-clip"><path d="M118 11 C128.5 11 137 19.5 137 30 C137 36 136 40 134 44 C138 54 136 66 126 74 C112 86 86 88 66 82 C48 77 30 66 12 56 L4 52 C30 46 60 40 84 36 C92 35 98 32 100 26 C102 17 109 11 118 11 Z"/></clipPath>
     <clipPath id="chick-clip"><path d="M30 3.5 C34.7 3.5 38.5 7.3 38.5 12 C38.5 15.4 37 18 35 19.6 C37.4 22.8 37.4 27.8 34 31.2 C31 33.8 25 34.4 18 34.4 C11 34.4 5.6 32.4 2.6 28.2 L-0.6 22.6 C3 21 5.4 17.6 9.6 15.6 C13.6 13.8 18 13 21.6 12.2 C22.2 7.2 25.6 3.5 30 3.5 Z"/></clipPath>
-    <clipPath id="wet-clip"><rect x="-400" y="258" width="1200" height="38"/></clipPath>
+    <clipPath id="wet-clip"><rect x="-400" y="258" width="2000" height="38"/></clipPath>
     <g id="plover-stand">
       <rect class="art-leg" x="80" y="80" width="2.8" height="36"/>
       <rect class="art-leg" x="80" y="114.4" width="9" height="1.8"/>
@@ -77,13 +68,13 @@ body-classes: page-about
       <path class="art-ink" d="M38 12.8 L41.8 14 L38 15.2 Z"/>
     </g>
   </defs>
-  <rect class="art-sky" x="0" y="0" width="400" height="191"/>
-  <circle class="art-sun" cx="326" cy="190" r="40"/>
-  <rect class="art-lake" x="0" y="190" width="400" height="52"/>
+  <rect class="art-sky" x="0" y="0" width="1200" height="191"/>
+  <circle class="art-sun" cx="820" cy="190" r="40"/>
+  <rect class="art-lake" x="0" y="190" width="1200" height="52"/>
   <g>
-    <rect class="art-glint" x="291" y="198" width="70" height="5"/>
-    <rect class="art-glint" x="303" y="209" width="46" height="4"/>
-    <rect class="art-glint" x="314" y="219" width="24" height="3"/>
+    <rect class="art-glint" x="785" y="198" width="70" height="5"/>
+    <rect class="art-glint" x="797" y="209" width="46" height="4"/>
+    <rect class="art-glint" x="808" y="219" width="24" height="3"/>
   </g>
   <g class="art-breakwater">
     <rect class="art-stone" x="-4" y="185" width="13" height="9"/>
@@ -93,55 +84,67 @@ body-classes: page-about
     <rect class="art-stone" x="56" y="185" width="13" height="9"/>
     <rect class="art-stone" x="71" y="185" width="13" height="9"/>
     <rect class="art-stone" x="86" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="101" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="116" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="131" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="146" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="161" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="176" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="191" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="206" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="221" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="236" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="251" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="266" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="281" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="296" y="185" width="13" height="9"/>
+    <rect class="art-stone" x="311" y="185" width="13" height="9"/>
   </g>
   <g class="art-lighthouse">
-    <rect class="art-stone-dark" x="100" y="180" width="82" height="16"/>
-    <rect class="art-roof" x="121.4" y="110.6" width="4" height="22"/>
-    <rect class="art-house" x="120.8" y="109" width="5.2" height="1.8"/>
-    <circle class="art-roof" cx="141" cy="97.4" r="1.5"/>
-    <path class="art-roof" d="M133.6 104 Q141 95.6 148.4 104 Z"/>
-    <rect class="art-lamp" x="134.6" y="104" width="12.8" height="5.6"/>
-    <rect class="art-ink" x="138.4" y="104" width="0.7" height="5.6"/>
-    <rect class="art-ink" x="142.9" y="104" width="0.7" height="5.6"/>
-    <rect class="art-house" x="134.6" y="109.6" width="12.8" height="5.4"/>
-    <rect class="art-ink" x="128" y="109.4" width="26" height="0.9"/>
-    <rect class="art-ink" x="128" y="109.4" width="0.9" height="5.6"/>
-    <rect class="art-ink" x="134.6" y="109.4" width="0.9" height="5.6"/>
-    <rect class="art-ink" x="146.5" y="109.4" width="0.9" height="5.6"/>
-    <rect class="art-ink" x="153.1" y="109.4" width="0.9" height="5.6"/>
-    <rect class="art-ink" x="127.4" y="115" width="27.2" height="2"/>
-    <rect class="art-house" x="129.5" y="117" width="23" height="13"/>
-    <rect class="art-window" x="139.2" y="118.4" width="3.6" height="4.2"/>
-    <polygon class="art-roof" points="115,135.2 167,135.2 154,123.4 128,123.4"/>
-    <rect class="art-house" x="118" y="135" width="46" height="45"/>
-    <rect class="art-window" x="125.9" y="139" width="4.4" height="8"/>
-    <rect class="art-window" x="138.8" y="139" width="4.4" height="8"/>
-    <rect class="art-window" x="151.7" y="139" width="4.4" height="8"/>
-    <rect class="art-window" x="125" y="157.5" width="4.4" height="8"/>
-    <rect class="art-window" x="152.6" y="157.5" width="4.4" height="8"/>
-    <rect class="art-door" x="138.4" y="157.5" width="5.2" height="18.5"/>
+    <rect class="art-stone-dark" x="320" y="180" width="82" height="16"/>
+    <rect class="art-roof" x="341.4" y="125.6" width="4" height="22"/>
+    <rect class="art-house" x="340.8" y="124" width="5.2" height="1.8"/>
+    <circle class="art-roof" cx="361" cy="112.4" r="1.5"/>
+    <path class="art-roof" d="M353.6 119 Q361 110.6 368.4 119 Z"/>
+    <rect class="art-lamp" x="354.6" y="119" width="12.8" height="5.6"/>
+    <rect class="art-ink" x="358.4" y="119" width="0.7" height="5.6"/>
+    <rect class="art-ink" x="362.9" y="119" width="0.7" height="5.6"/>
+    <rect class="art-house" x="354.6" y="124.6" width="12.8" height="5.4"/>
+    <rect class="art-ink" x="348" y="124.4" width="26" height="0.9"/>
+    <rect class="art-ink" x="348" y="124.4" width="0.9" height="5.6"/>
+    <rect class="art-ink" x="354.6" y="124.4" width="0.9" height="5.6"/>
+    <rect class="art-ink" x="366.5" y="124.4" width="0.9" height="5.6"/>
+    <rect class="art-ink" x="373.1" y="124.4" width="0.9" height="5.6"/>
+    <rect class="art-ink" x="347.4" y="130" width="27.2" height="2"/>
+    <rect class="art-house" x="349.5" y="132" width="23" height="13"/>
+    <rect class="art-window" x="359.2" y="133.4" width="3.6" height="4.2"/>
+    <polygon class="art-roof" points="335,150.2 387,150.2 374,138.4 348,138.4"/>
+    <rect class="art-house" x="338" y="150" width="46" height="30"/>
+    <rect class="art-window" x="345.9" y="155" width="4.4" height="8"/>
+    <rect class="art-window" x="371.7" y="155" width="4.4" height="8"/>
+    <rect class="art-door" x="358.4" y="156" width="5.2" height="20"/>
   </g>
-  <rect class="art-shallows" x="0" y="242" width="400" height="16"/>
-  <path class="art-foam" d="M0 250 A6 6 0 0 1 12 250 A6 6 0 0 1 24 250 A6 6 0 0 1 36 250 A6 6 0 0 1 48 250 A6 6 0 0 1 60 250 A6 6 0 0 1 72 250 A6 6 0 0 1 84 250 A6 6 0 0 1 96 250 A6 6 0 0 1 108 250 A6 6 0 0 1 120 250 A6 6 0 0 1 132 250 A6 6 0 0 1 144 250 A6 6 0 0 1 156 250 A6 6 0 0 1 168 250 A6 6 0 0 1 180 250 A6 6 0 0 1 192 250 A6 6 0 0 1 204 250 A6 6 0 0 1 216 250 A6 6 0 0 1 228 250 A6 6 0 0 1 240 250 A6 6 0 0 1 252 250 A6 6 0 0 1 264 250 A6 6 0 0 1 276 250 A6 6 0 0 1 288 250 A6 6 0 0 1 300 250 A6 6 0 0 1 312 250 A6 6 0 0 1 324 250 A6 6 0 0 1 336 250 A6 6 0 0 1 348 250 A6 6 0 0 1 360 250 A6 6 0 0 1 372 250 A6 6 0 0 1 384 250 A6 6 0 0 1 396 250 A6 6 0 0 1 408 250 L400 258 L0 258 Z"/>
-  <rect class="art-wet" x="0" y="258" width="400" height="38"/>
-  <rect class="art-beach" x="0" y="296" width="400" height="104"/>
+  <rect class="art-shallows" x="0" y="242" width="1200" height="16"/>
+  <path class="art-foam" d="M0 250 A6 6 0 0 1 12 250 A6 6 0 0 1 24 250 A6 6 0 0 1 36 250 A6 6 0 0 1 48 250 A6 6 0 0 1 60 250 A6 6 0 0 1 72 250 A6 6 0 0 1 84 250 A6 6 0 0 1 96 250 A6 6 0 0 1 108 250 A6 6 0 0 1 120 250 A6 6 0 0 1 132 250 A6 6 0 0 1 144 250 A6 6 0 0 1 156 250 A6 6 0 0 1 168 250 A6 6 0 0 1 180 250 A6 6 0 0 1 192 250 A6 6 0 0 1 204 250 A6 6 0 0 1 216 250 A6 6 0 0 1 228 250 A6 6 0 0 1 240 250 A6 6 0 0 1 252 250 A6 6 0 0 1 264 250 A6 6 0 0 1 276 250 A6 6 0 0 1 288 250 A6 6 0 0 1 300 250 A6 6 0 0 1 312 250 A6 6 0 0 1 324 250 A6 6 0 0 1 336 250 A6 6 0 0 1 348 250 A6 6 0 0 1 360 250 A6 6 0 0 1 372 250 A6 6 0 0 1 384 250 A6 6 0 0 1 396 250 A6 6 0 0 1 408 250 A6 6 0 0 1 420 250 A6 6 0 0 1 432 250 A6 6 0 0 1 444 250 A6 6 0 0 1 456 250 A6 6 0 0 1 468 250 A6 6 0 0 1 480 250 A6 6 0 0 1 492 250 A6 6 0 0 1 504 250 A6 6 0 0 1 516 250 A6 6 0 0 1 528 250 A6 6 0 0 1 540 250 A6 6 0 0 1 552 250 A6 6 0 0 1 564 250 A6 6 0 0 1 576 250 A6 6 0 0 1 588 250 A6 6 0 0 1 600 250 A6 6 0 0 1 612 250 A6 6 0 0 1 624 250 A6 6 0 0 1 636 250 A6 6 0 0 1 648 250 A6 6 0 0 1 660 250 A6 6 0 0 1 672 250 A6 6 0 0 1 684 250 A6 6 0 0 1 696 250 A6 6 0 0 1 708 250 A6 6 0 0 1 720 250 A6 6 0 0 1 732 250 A6 6 0 0 1 744 250 A6 6 0 0 1 756 250 A6 6 0 0 1 768 250 A6 6 0 0 1 780 250 A6 6 0 0 1 792 250 A6 6 0 0 1 804 250 A6 6 0 0 1 816 250 A6 6 0 0 1 828 250 A6 6 0 0 1 840 250 A6 6 0 0 1 852 250 A6 6 0 0 1 864 250 A6 6 0 0 1 876 250 A6 6 0 0 1 888 250 A6 6 0 0 1 900 250 A6 6 0 0 1 912 250 A6 6 0 0 1 924 250 A6 6 0 0 1 936 250 A6 6 0 0 1 948 250 A6 6 0 0 1 960 250 A6 6 0 0 1 972 250 A6 6 0 0 1 984 250 A6 6 0 0 1 996 250 A6 6 0 0 1 1008 250 A6 6 0 0 1 1020 250 A6 6 0 0 1 1032 250 A6 6 0 0 1 1044 250 A6 6 0 0 1 1056 250 A6 6 0 0 1 1068 250 A6 6 0 0 1 1080 250 A6 6 0 0 1 1092 250 A6 6 0 0 1 1104 250 A6 6 0 0 1 1116 250 A6 6 0 0 1 1128 250 A6 6 0 0 1 1140 250 A6 6 0 0 1 1152 250 A6 6 0 0 1 1164 250 A6 6 0 0 1 1176 250 A6 6 0 0 1 1188 250 A6 6 0 0 1 1200 250 A6 6 0 0 1 1212 250 L1200 258 L0 258 Z"/>
+  <rect class="art-wet" x="0" y="258" width="1200" height="38"/>
+  <rect class="art-beach" x="0" y="296" width="1200" height="104"/>
   <g class="art-runner">
     <g class="art-runner-turn">
-      <g class="art-reflection" clip-path="url(#wet-clip)"><use href="#plover-walk" transform="translate(252 319.4) scale(-0.34 -0.34)"/></g>
-      <use href="#plover-walk" transform="translate(252 240.56) scale(-0.34 0.34)"/>
+      <g class="art-reflection" clip-path="url(#wet-clip)"><use href="#plover-walk" transform="translate(560 328.3) scale(-0.42 -0.42)"/></g>
+      <use href="#plover-walk" transform="translate(560 231.7) scale(-0.42 0.42)"/>
     </g>
   </g>
-  <g class="art-bob"><use href="#plover-stand" transform="translate(34 286.96) scale(0.44 0.44)"/></g>
-  <g class="art-hop"><use href="#chick" transform="translate(132 304.72) scale(-0.64 0.64)"/></g>
-  <use href="#plover-stand" transform="translate(318 317.68) scale(-0.52 0.52)"/>
-  <use href="#chick" transform="translate(284 350.92) scale(-0.54 0.54)"/>
-  <use href="#chick" transform="translate(284 350.92) scale(0.54 0.54)"/>
+  <g class="art-bob"><use href="#plover-stand" transform="translate(265 274.1) scale(0.55 0.55)"/></g>
+  <g class="art-hop"><use href="#chick" transform="translate(387 296.4) scale(-0.8 0.8)"/></g>
+  <use href="#plover-stand" transform="translate(1110 302.5) scale(-0.65 0.65)"/>
+  <use href="#chick" transform="translate(1067 342.6) scale(-0.68 0.68)"/>
+  <use href="#chick" transform="translate(1067 342.6) scale(0.68 0.68)"/>
 </svg>
 <button class="art-toggle" type="button" aria-label="Pause animation" aria-pressed="false"></button>
 <script>
   document.querySelectorAll(".art-toggle").forEach(function (button) {
     button.addEventListener("click", function () {
-      var paused = button.closest(".hero-art").classList.toggle("art-paused");
+      var paused = button.closest(".scene").classList.toggle("art-paused");
       button.setAttribute("aria-pressed", paused);
       button.setAttribute("aria-label", paused ? "Play animation" : "Pause animation");
     });
@@ -150,11 +153,28 @@ body-classes: page-about
 ```
 :::
 
+::: {.hero}
+
+::: {.hero-photo}
+```{=html}
+<img src="files/cif24.jpeg" alt="Charles Costanzo" width="800" height="800">
+```
 :::
 
-Charles Costanzo (he/him/his) is a third-year Ph.D. student in the Department of Statistics. His research interests include Bayesian statistics, statistical network models, and applications of statistical methods to social science and public policy. He earned his B.S. in Political Science and Statistics from The Ohio State University in 2024, graduating with honors research distinction in Political Science.
+::: {.hero-text}
+```{=html}
+<div class="hero-name" role="heading" aria-level="1">Charles G. Costanzo</div>
+<p class="hero-role">Ph.D. student in Statistics and Social Data Analytics<br>The Pennsylvania State University</p>
+```
+:::
 
-When not coding in R or cooking up a cool data visualization, you can probably find Charles scoping out a new coffee spot, catching a movie at his local theater, or lounging on the shores of a great lake.
+:::
+
+I am a third-year Ph.D. student in Penn State's [Department of Statistics](https://science.psu.edu/stat), where I am a research assistant at the [Statistical Consulting Center](https://scc.stat.psu.edu/). My research addresses methodological and applied problems in the health and social sciences. I mainly work with Bayesian methods and statistical network models, which I apply to questions about legislative speech, immigration and criminal justice, and the size of hard-to-reach populations, such as those at elevated risk for HIV. 
+
+I am a co-developer of [**networkscaleup**](https://pypi.org/project/networkscaleup/), a Python package for fitting network scale-up models to aggregated relational data. Previously, I was a Data Analyst Fellow at the Bureau of Justice Statistics through the Coding it Forward program. Before that, I earned my B.S. in Political Science and Statistics from The Ohio State University in 2024, graduating with honors research distinction in Political Science.
+
+When not coding in R or cooking up a cool data visualization, you can probably find me scoping out a new coffee spot, catching a movie at my local theater, or lounging on the shores of a great lake.
 
 ## Contact
 
