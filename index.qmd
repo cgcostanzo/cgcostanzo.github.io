@@ -45,6 +45,11 @@ body-classes: page-about
       <path class="art-bill" d="M136 26.6 L150 30.6 L136 34.6 Z"/>
       <path class="art-ink" d="M144.6 29.1 L150 30.6 L144.6 32.2 Z"/>
     </g>
+    <g id="gull">
+      <path class="art-gull" d="M0 0 C-7 -3 -14 -7 -24 -6 C-15 -2 -8 2 0 4 C8 2 15 -2 24 -6 C14 -7 7 -3 0 0 Z"/>
+      <path class="art-ink" d="M-24 -6 L-15 -3.9 L-16 -1.6 Z"/>
+      <path class="art-ink" d="M24 -6 L15 -3.9 L16 -1.6 Z"/>
+    </g>
     <g id="chick">
       <rect class="art-chick-leg" x="16" y="33" width="1.8" height="19"/>
       <rect class="art-chick-leg" x="16" y="50.6" width="6" height="1.4"/>
@@ -69,7 +74,22 @@ body-classes: page-about
     </g>
   </defs>
   <rect class="art-sky" x="0" y="0" width="1200" height="191"/>
-  <circle class="art-sun" cx="820" cy="190" r="40"/>
+  <rect class="art-sky-mid" x="0" y="118" width="1200" height="30"/>
+  <rect class="art-sky-low" x="0" y="148" width="1200" height="22"/>
+  <rect class="art-sky-glow" x="0" y="170" width="1200" height="21"/>
+  <g class="art-sun">
+    <circle class="art-halo" cx="820" cy="190" r="100"/>
+    <circle class="art-halo" cx="820" cy="190" r="68"/>
+    <circle class="art-sun-disc" cx="820" cy="190" r="40"/>
+  </g>
+  <g class="art-gulls">
+    <use href="#gull" transform="translate(150 118) scale(0.6)"/>
+    <use href="#gull" transform="translate(540 100)"/>
+    <use href="#gull" transform="translate(610 122) scale(0.65)"/>
+    <use href="#gull" transform="translate(690 88) scale(0.8)"/>
+    <use href="#gull" transform="translate(985 112) scale(0.7)"/>
+    <use href="#gull" transform="translate(1070 96)"/>
+  </g>
   <rect class="art-lake" x="0" y="190" width="1200" height="52"/>
   <g>
     <rect class="art-glint" x="785" y="198" width="70" height="5"/>
@@ -136,9 +156,9 @@ body-classes: page-about
   </g>
   <g class="art-bob"><use href="#plover-stand" transform="translate(265 274.1) scale(0.55 0.55)"/></g>
   <g class="art-hop"><use href="#chick" transform="translate(387 296.4) scale(-0.8 0.8)"/></g>
-  <use href="#plover-stand" transform="translate(1110 302.5) scale(-0.65 0.65)"/>
-  <use href="#chick" transform="translate(1067 342.6) scale(-0.68 0.68)"/>
-  <use href="#chick" transform="translate(1067 342.6) scale(0.68 0.68)"/>
+  <use href="#plover-stand" transform="translate(905 302.5) scale(-0.65 0.65)"/>
+  <use href="#chick" transform="translate(862 342.6) scale(-0.68 0.68)"/>
+  <use href="#chick" transform="translate(862 342.6) scale(0.68 0.68)"/>
 </svg>
 <button class="art-toggle" type="button" aria-label="Pause animation" aria-pressed="false"></button>
 <script>

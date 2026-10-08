@@ -66,6 +66,9 @@
 
   /* the home-page composition */
   --art-sky: var(--sky);
+  --art-sky-mid: #DCE6D8;
+  --art-sky-low: #EDE2BE;
+  --art-sky-glow: #F5D39A;
   --art-lake: #3E8E8F;
   --art-shallows: #6DB0AF;
   --art-foam: #FFFFFF;
@@ -86,6 +89,9 @@ body.quarto-dark {
   --rule: #1B4F50;
 
   --art-sky: #1D5A5B;
+  --art-sky-mid: #235A58;
+  --art-sky-low: #335C51;
+  --art-sky-glow: #5C5A40;
   --art-lake: #2F7C7D;
   --art-shallows: #4E9696;
   --art-foam: #CFE3E3;
@@ -291,10 +297,18 @@ body.quarto-dark.page-cv #title-block-header .title::before {
   margin: 0;
 }
 
+/* sunrise: the sky steps down through flat bands to a warm glow at the
+   horizon, and two translucent rings ride up with the sun */
 .art-sky { fill: var(--art-sky); }
+.art-sky-mid { fill: var(--art-sky-mid); }
+.art-sky-low { fill: var(--art-sky-low); }
+.art-sky-glow { fill: var(--art-sky-glow); }
 .art-lake { fill: var(--art-lake); }
-.art-sun,
+.art-sun-disc,
 .art-glint { fill: var(--sunset); }
+.art-halo { fill: var(--sunset); opacity: 0.14; }
+.art-halo + .art-halo { opacity: 0.2; }
+.art-gull { fill: var(--art-foam); }
 .art-shallows { fill: var(--art-shallows); }
 .art-foam { fill: var(--art-foam); }
 .art-wet { fill: var(--art-wet); }
@@ -352,6 +366,14 @@ body.quarto-dark.page-cv #title-block-header .title::before {
   .art-hop {
     animation: hop 4.5s ease-in-out infinite;
   }
+  .art-gulls {
+    animation: glide 40s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes glide {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50px); }
 }
 
 .art-paused * {
